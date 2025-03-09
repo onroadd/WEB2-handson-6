@@ -46,7 +46,6 @@ interface Review {
 }
 
 interface DeletedProduct extends ProductDetail {
-  // eslint-disable-next-line @typescript-eslint/no-wrapper-object-types
   isDeleted: Boolean;
   deletedOn: string;
 }
